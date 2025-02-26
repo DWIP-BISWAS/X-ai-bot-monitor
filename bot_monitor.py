@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters
 # Environment Variables from Railway
 TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")
-PORT = int(os.getenv("PORT", 5000))  # Railway assigns a dynamic port
+PORT = int(os.getenv("PORT", 5000))
 
 # Statistics
 message_count = 0
